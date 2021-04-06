@@ -49,6 +49,7 @@ var createNewTaskElement=function(taskString){
 
 
     //and appending.
+    listItem.className='task_item';
     listItem.appendChild(checkBox);
     listItem.appendChild(label);
     listItem.appendChild(editInput);
