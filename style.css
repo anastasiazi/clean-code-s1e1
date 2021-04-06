@@ -133,7 +133,7 @@ input#new-task {
   vertical-align: middle;
 }
 
-.task_item > input[type="checkbox"] {
+.task_item > .checkbox_input {
   margin: 0 10px;
 }
 
@@ -148,13 +148,13 @@ input#new-task {
   width: 226px
 }
 
-.btn.delete img {
+.btn.delete .icon_btn {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
 
-.btn.delete img:hover {
+.btn.delete .icon_btn:hover {
   transform: rotateZ(0);
 }
 
