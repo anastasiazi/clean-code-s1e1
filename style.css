@@ -17,7 +17,7 @@ body {
 }
 
 .header .about {
-  font-family: fantasy, cursive;
+  font-family: antasy, cursive;
 }
 
 @media (max-width:768px) {
@@ -42,16 +42,16 @@ body {
 }
 
 .task_list {
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
 
 .task_item {
-  list-style:none;
+  list-style: none;
 }
 
 .list_title {
-  list-style:none;
+  list-style: none;
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -63,7 +63,7 @@ body {
 
 input,
 button{
-  outline:none;
+  outline: none;
 }
 
 .btn {
@@ -166,14 +166,14 @@ input#new-task {
 
 /* Edit Task */
 .task_list .task_item .text_input {
-  display:none
+  display: none
 }
 
 .task_list .task_item.editMode .text_input {
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px
 }
 
 .task_list .task_item.editMode label {
-  display:none;
+  display: none;
 }
